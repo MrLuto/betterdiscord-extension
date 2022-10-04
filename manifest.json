@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "BetterDiscord extension",
+    "description": "BetterDiscord inside a extension",
+    "version": "1.0",
+    "options_ui": {
+        "page":"option.html",
+        "open_in_tab": false
+    },
+    "icons": {
+        "16": "/images/16-1.png",
+        "48": "/images/48-1.png",
+        "128": "/images/128-1.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [{
+        "matches": ["https://discord.com/*", "http://discord.com/*"],
+        "css": ["betterbackground.css"]
+    }]
+}
