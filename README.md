@@ -12,7 +12,7 @@ This is a chrome extension that will search for haiku's and notify you when it f
 This project is still in developement
 
 ```bash
-  git clone https://github.com/MrLuto/haiku-finder.git
+  git clone https://github.com/MrLuto/betterdiscord-extension.git
 ```
 
 open the extensions menu in chrome
